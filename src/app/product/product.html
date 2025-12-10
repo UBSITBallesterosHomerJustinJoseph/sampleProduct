@@ -1,0 +1,19 @@
+<hr>
+<table class="table">
+  <tr>
+    <th> </th>
+    <th>Product Name</th>
+    <th>Product Price</th>
+    <th>Action</th>
+  </tr>
+
+  <tr *ngFor="let product of productList">
+    <td>{{ product.id }}</td>
+    <td>{{ product.name }}</td>
+    <td>{{ product.price }}</td>
+    <td>
+      <a [routerLink]="['/details', product.id]">View Details</a>
+    </td>
+  </tr>
+</table>
+<hr>

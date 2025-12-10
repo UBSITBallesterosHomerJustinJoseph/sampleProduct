@@ -1,0 +1,46 @@
+.product-detail-card {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover glow */
+.product-detail-card:hover {
+  box-shadow: 0 8px 24px rgba(103, 58, 183, 0.3);
+  transform: translateY(-3px);
+}
+
+/* Title */
+.product-detail-card h2 {
+  font-size: 2rem;
+  color: #673ab7;
+  margin-bottom: 1rem;
+}
+
+/* Brand label */
+.product-detail-card p b {
+  color: #9c27b0;
+}
+
+/* Back button */
+.back-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background: #673ab7;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-btn:hover {
+  background: #9c27b0;
+  box-shadow: 0 4px 12px rgba(156, 39, 176, 0.4);
+}
